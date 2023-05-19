@@ -116,6 +116,8 @@ public class MyFrame extends JFrame implements ActionListener {
 	        risultato.setText(""+numeri);
 	        risultato.setEditable(false);
 	    }
+	
+	//l'errore è in questo metodo perchè incrementi la "i"(nel secondo for) invece della "X" e quindi il programma entra in un loop infinito ed è come se si bloccasse. Ma va bene!
 		
         
         
